@@ -1,7 +1,6 @@
 ---
 - name: Download files from Internet or Intranet
   hosts: all
-  remote_user: devops
   become: true
   tasks:
     - name: Download python pip

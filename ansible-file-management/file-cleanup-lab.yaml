@@ -1,0 +1,10 @@
+---
+- name: Cleanup Node
+  hosts: all
+
+  become: true
+  tasks:
+    - name: Remove files
+      file:
+        path: /tmp/get-pip.py
+        state: absent
