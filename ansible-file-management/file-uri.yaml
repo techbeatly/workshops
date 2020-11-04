@@ -7,8 +7,8 @@
     - name: Create a JIRA issue
       uri:
         url: https://your.jira.example.com/rest/api/2/issue/
-        user: your_username
-        password: your_pass
+        user: "{{ your_username }}"
+        password: "{{ your_pass }}"
         method: POST
         body: "{{ lookup('file','issue.json') }}"
         force_basic_auth: yes

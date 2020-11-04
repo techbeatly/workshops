@@ -1,0 +1,240 @@
+Nov  3 23:04:38 rhel8-node01 polkitd[801]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  3 23:04:38 rhel8-node01 polkitd[801]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  3 23:04:38 rhel8-node01 polkitd[801]: Finished loading, compiling and executing 4 rules
+Nov  3 23:04:38 rhel8-node01 polkitd[801]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  3 23:04:45 rhel8-node01 sshd[872]: Server listening on 0.0.0.0 port 22.
+Nov  3 23:04:45 rhel8-node01 sshd[872]: Server listening on :: port 22.
+Nov  3 23:06:22 rhel8-node01 systemd[5066]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  3 23:06:23 rhel8-node01 login[899]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  3 23:06:23 rhel8-node01 login[899]: ROOT LOGIN ON tty1
+Nov  3 23:07:47 rhel8-node01 polkitd[787]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  3 23:07:47 rhel8-node01 polkitd[787]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  3 23:07:47 rhel8-node01 polkitd[787]: Finished loading, compiling and executing 4 rules
+Nov  3 23:07:47 rhel8-node01 polkitd[787]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  3 23:07:55 rhel8-node01 sshd[835]: Server listening on 0.0.0.0 port 22.
+Nov  3 23:07:55 rhel8-node01 sshd[835]: Server listening on :: port 22.
+Nov  3 23:08:52 rhel8-node01 unix_chkpwd[1523]: password check failed for user (root)
+Nov  3 23:08:52 rhel8-node01 login[856]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Nov  3 23:08:52 rhel8-node01 login[856]: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Nov  3 23:08:54 rhel8-node01 login[856]: FAILED LOGIN 1 FROM tty1 FOR root, Authentication failure
+Nov  3 23:08:57 rhel8-node01 systemd[1528]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  3 23:08:57 rhel8-node01 login[856]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  3 23:08:57 rhel8-node01 login[856]: ROOT LOGIN ON tty1
+Nov  3 23:10:55 rhel8-node01 sshd[1569]: Accepted password for root from 10.1.10.101 port 55532 ssh2
+Nov  3 23:10:55 rhel8-node01 sshd[1569]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  3 23:10:58 rhel8-node01 sshd[1573]: Received disconnect from 10.1.10.101 port 55532:11: disconnected by user
+Nov  3 23:10:58 rhel8-node01 sshd[1573]: Disconnected from user root 10.1.10.101 port 55532
+Nov  3 23:10:58 rhel8-node01 sshd[1569]: pam_unix(sshd:session): session closed for user root
+Nov  4 10:32:40 rhel8-node01 polkitd[786]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  4 10:32:40 rhel8-node01 polkitd[786]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  4 10:32:40 rhel8-node01 polkitd[786]: Finished loading, compiling and executing 4 rules
+Nov  4 10:32:40 rhel8-node01 polkitd[786]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  4 10:32:49 rhel8-node01 sshd[833]: Server listening on 0.0.0.0 port 22.
+Nov  4 10:32:49 rhel8-node01 sshd[833]: Server listening on :: port 22.
+Nov  4 10:40:54 rhel8-node01 systemd[1526]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  4 10:40:54 rhel8-node01 login[854]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  4 10:40:54 rhel8-node01 login[854]: ROOT LOGIN ON tty1
+Nov  4 10:45:10 rhel8-node01 sshd[1570]: Accepted password for root from 10.1.10.101 port 58854 ssh2
+Nov  4 10:45:10 rhel8-node01 sshd[1570]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  4 10:45:34 rhel8-node01 useradd[1791]: new group: name=ansible, GID=1000
+Nov  4 10:45:34 rhel8-node01 useradd[1791]: new user: name=ansible, UID=1000, GID=1000, home=/home/ansible, shell=/bin/bash
+Nov  4 10:45:34 rhel8-node01 useradd[1791]: add 'ansible' to group 'wheel'
+Nov  4 10:45:34 rhel8-node01 useradd[1791]: add 'ansible' to shadow group 'wheel'
+Nov  4 10:46:56 rhel8-node01 sshd[2138]: Accepted publickey for ansible from 10.1.10.101 port 58858 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 10:46:56 rhel8-node01 systemd[2142]: pam_unix(systemd-user:session): session opened for user ansible by (uid=0)
+Nov  4 10:46:56 rhel8-node01 sshd[2138]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 10:47:00 rhel8-node01 sshd[2153]: Received disconnect from 10.1.10.101 port 58858:11: disconnected by user
+Nov  4 10:47:00 rhel8-node01 sshd[2153]: Disconnected from user ansible 10.1.10.101 port 58858
+Nov  4 10:47:00 rhel8-node01 sshd[2138]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 10:47:00 rhel8-node01 systemd[2147]: pam_unix(systemd-user:session): session closed for user ansible
+Nov  4 10:47:02 rhel8-node01 sshd[2190]: Accepted publickey for ansible from 10.1.10.101 port 58860 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 10:47:02 rhel8-node01 systemd[2194]: pam_unix(systemd-user:session): session opened for user ansible by (uid=0)
+Nov  4 10:47:02 rhel8-node01 sshd[2190]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 10:47:04 rhel8-node01 sudo[2230]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/bash
+Nov  4 10:47:04 rhel8-node01 sudo[2230]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Nov  4 10:47:04 rhel8-node01 sudo[2230]: pam_unix(sudo-i:session): session opened for user root by ansible(uid=0)
+Nov  4 10:47:05 rhel8-node01 sudo[2230]: pam_unix(sudo-i:session): session closed for user root
+Nov  4 10:47:31 rhel8-node01 sshd[1574]: Received disconnect from 10.1.10.101 port 58854:11: disconnected by user
+Nov  4 10:47:31 rhel8-node01 sshd[1574]: Disconnected from user root 10.1.10.101 port 58854
+Nov  4 10:47:31 rhel8-node01 sshd[1570]: pam_unix(sshd:session): session closed for user root
+Nov  4 10:47:32 rhel8-node01 sshd[2204]: Received disconnect from 10.1.10.101 port 58860:11: disconnected by user
+Nov  4 10:47:32 rhel8-node01 sshd[2204]: Disconnected from user ansible 10.1.10.101 port 58860
+Nov  4 10:47:32 rhel8-node01 sshd[2190]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 10:47:32 rhel8-node01 systemd[2198]: pam_unix(systemd-user:session): session closed for user ansible
+Nov  4 11:00:01 rhel8-node01 polkitd[788]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  4 11:00:01 rhel8-node01 polkitd[788]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  4 11:00:01 rhel8-node01 polkitd[788]: Finished loading, compiling and executing 4 rules
+Nov  4 11:00:01 rhel8-node01 polkitd[788]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  4 11:00:10 rhel8-node01 sshd[829]: Server listening on 0.0.0.0 port 22.
+Nov  4 11:00:10 rhel8-node01 sshd[829]: Server listening on :: port 22.
+Nov  4 11:32:54 rhel8-node01 sshd[1546]: Accepted publickey for ansible from 10.1.10.101 port 58936 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 11:32:55 rhel8-node01 systemd[1551]: pam_unix(systemd-user:session): session opened for user ansible by (uid=0)
+Nov  4 11:32:55 rhel8-node01 sshd[1546]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 11:32:57 rhel8-node01 sshd[1562]: Received disconnect from 10.1.10.101 port 58936:11: disconnected by user
+Nov  4 11:32:57 rhel8-node01 sshd[1562]: Disconnected from user ansible 10.1.10.101 port 58936
+Nov  4 11:32:57 rhel8-node01 sshd[1546]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 11:32:57 rhel8-node01 systemd[1556]: pam_unix(systemd-user:session): session closed for user ansible
+Nov  4 12:13:51 rhel8-node01 sshd[1644]: Accepted publickey for ansible from 10.1.10.101 port 59022 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 12:13:51 rhel8-node01 systemd[1648]: pam_unix(systemd-user:session): session opened for user ansible by (uid=0)
+Nov  4 12:13:51 rhel8-node01 sshd[1644]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 12:16:41 rhel8-node01 sshd[1693]: Invalid user devops from 10.1.10.101 port 59036
+Nov  4 12:16:42 rhel8-node01 sshd[1693]: Connection closed by invalid user devops 10.1.10.101 port 59036 [preauth]
+Nov  4 12:17:09 rhel8-node01 sshd[1697]: Accepted publickey for ansible from 10.1.10.101 port 59042 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 12:17:10 rhel8-node01 sshd[1697]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 12:17:12 rhel8-node01 sudo[1820]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sguaasfrfhdutprqgwbvckvirrqbkini ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604463437.589827-30724107821323/AnsiballZ_setup.py
+Nov  4 12:17:12 rhel8-node01 sudo[1820]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:17:12 rhel8-node01 sudo[1820]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:17:32 rhel8-node01 sudo[1820]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:17:34 rhel8-node01 sudo[1963]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jwyvzenricjegyebnsmjejnipomsowbb ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604463460.5922303-97828024644686/AnsiballZ_get_url.py
+Nov  4 12:17:34 rhel8-node01 sudo[1963]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:17:34 rhel8-node01 sudo[1963]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:17:47 rhel8-node01 sudo[1963]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:18:48 rhel8-node01 sshd[1700]: Received disconnect from 10.1.10.101 port 59042:11: disconnected by user
+Nov  4 12:18:48 rhel8-node01 sshd[1700]: Disconnected from user ansible 10.1.10.101 port 59042
+Nov  4 12:18:48 rhel8-node01 sshd[1697]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 12:20:09 rhel8-node01 sudo[2045]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/nmtui
+Nov  4 12:20:09 rhel8-node01 sudo[2045]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:20:09 rhel8-node01 sudo[2045]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:20:26 rhel8-node01 sudo[2045]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:20:52 rhel8-node01 sudo[2052]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/systemctl restart NetworkManager
+Nov  4 12:20:52 rhel8-node01 sudo[2052]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:20:52 rhel8-node01 sudo[2052]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:20:53 rhel8-node01 sudo[2052]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:21:23 rhel8-node01 sudo[2092]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/nmtui
+Nov  4 12:21:23 rhel8-node01 sudo[2092]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:21:23 rhel8-node01 sudo[2092]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:21:40 rhel8-node01 sudo[2092]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:21:42 rhel8-node01 sudo[2100]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/systemctl restart NetworkManager
+Nov  4 12:21:42 rhel8-node01 sudo[2100]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:21:42 rhel8-node01 sudo[2100]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:21:42 rhel8-node01 sudo[2100]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:22:58 rhel8-node01 sudo[2177]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/bash
+Nov  4 12:22:59 rhel8-node01 sudo[2177]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:22:59 rhel8-node01 sudo[2177]: pam_unix(sudo-i:session): session opened for user root by ansible(uid=0)
+Nov  4 12:30:36 rhel8-node01 sshd[2477]: Accepted publickey for ansible from 10.1.10.101 port 59078 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 12:30:36 rhel8-node01 sshd[2477]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 12:30:38 rhel8-node01 sudo[2600]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kucepwcszsxvoyglubynnvnolfquofki ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604464243.9745903-100491021318863/AnsiballZ_setup.py
+Nov  4 12:30:38 rhel8-node01 sudo[2600]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:30:38 rhel8-node01 sudo[2600]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:30:41 rhel8-node01 sudo[2600]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:30:42 rhel8-node01 sudo[2743]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wktlynndoyewhnhnuwqsckygxhsixlvx ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604464249.2728076-230519321194405/AnsiballZ_get_url.py
+Nov  4 12:30:42 rhel8-node01 sudo[2743]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:30:42 rhel8-node01 sudo[2743]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:30:45 rhel8-node01 sudo[2743]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:31:45 rhel8-node01 sshd[2480]: Received disconnect from 10.1.10.101 port 59078:11: disconnected by user
+Nov  4 12:31:45 rhel8-node01 sshd[2480]: Disconnected from user ansible 10.1.10.101 port 59078
+Nov  4 12:31:45 rhel8-node01 sshd[2477]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 12:46:34 rhel8-node01 sshd[2788]: Invalid user devops from 10.1.10.101 port 59094
+Nov  4 12:46:34 rhel8-node01 sshd[2788]: Connection closed by invalid user devops 10.1.10.101 port 59094 [preauth]
+Nov  4 12:50:27 rhel8-node01 sshd[3023]: Accepted publickey for ansible from 10.1.10.101 port 59100 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 12:50:28 rhel8-node01 sshd[3023]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 12:50:31 rhel8-node01 sudo[3148]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cvvvtswrpvdumlijoebmhbhdoykbgtey ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604465435.4598026-59410629758513/AnsiballZ_setup.py
+Nov  4 12:50:31 rhel8-node01 sudo[3148]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:50:31 rhel8-node01 sudo[3148]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:50:34 rhel8-node01 sudo[3148]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:50:37 rhel8-node01 sudo[3297]: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-imjbckrhzdejtwbyglcyjoeuoxzdlqdi ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604465442.80276-80593844679939/AnsiballZ_file.py
+Nov  4 12:50:37 rhel8-node01 sudo[3297]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 12:50:37 rhel8-node01 sudo[3297]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 12:50:38 rhel8-node01 sudo[3297]: pam_unix(sudo:session): session closed for user root
+Nov  4 12:51:38 rhel8-node01 sshd[3026]: Received disconnect from 10.1.10.101 port 59100:11: disconnected by user
+Nov  4 12:51:38 rhel8-node01 sshd[3026]: Disconnected from user ansible 10.1.10.101 port 59100
+Nov  4 12:51:38 rhel8-node01 sshd[3023]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 15:36:19 rhel8-node01 polkitd[788]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  4 15:36:19 rhel8-node01 polkitd[788]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  4 15:36:19 rhel8-node01 polkitd[788]: Finished loading, compiling and executing 4 rules
+Nov  4 15:36:19 rhel8-node01 polkitd[788]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  4 15:36:29 rhel8-node01 sshd[836]: Server listening on 0.0.0.0 port 22.
+Nov  4 15:36:29 rhel8-node01 sshd[836]: Server listening on :: port 22.
+Nov  4 16:10:25 rhel8-node01 sshd[1591]: Accepted publickey for ansible from 10.1.10.101 port 34414 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 16:10:26 rhel8-node01 systemd[1595]: pam_unix(systemd-user:session): session opened for user ansible by (uid=0)
+Nov  4 16:10:26 rhel8-node01 sshd[1591]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 16:10:29 rhel8-node01 sudo[1726]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-prhbkdmqaftizdorqqfsohgxawahbwzm ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604477426.3570306-45880850000780/AnsiballZ_setup.py
+Nov  4 16:10:29 rhel8-node01 sudo[1726]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 16:10:29 rhel8-node01 sudo[1726]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 16:10:31 rhel8-node01 sudo[1726]: pam_unix(sudo:session): session closed for user root
+Nov  4 16:10:34 rhel8-node01 sudo[1869]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ypteyyylycxdstvmlumdmtmqzfcjkrnj ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604477433.052822-1848429040362/AnsiballZ_get_url.py
+Nov  4 16:10:34 rhel8-node01 sudo[1869]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 16:10:34 rhel8-node01 sudo[1869]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 16:10:37 rhel8-node01 sudo[1869]: pam_unix(sudo:session): session closed for user root
+Nov  4 16:11:37 rhel8-node01 sshd[1606]: Received disconnect from 10.1.10.101 port 34414:11: disconnected by user
+Nov  4 16:11:37 rhel8-node01 sshd[1606]: Disconnected from user ansible 10.1.10.101 port 34414
+Nov  4 16:11:37 rhel8-node01 sshd[1591]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 16:11:37 rhel8-node01 systemd[1600]: pam_unix(systemd-user:session): session closed for user ansible
+Nov  4 18:20:22 rhel8-node01 sshd[1962]: Accepted publickey for ansible from 10.1.10.101 port 34650 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:20:22 rhel8-node01 systemd[1966]: pam_unix(systemd-user:session): session opened for user ansible by (uid=0)
+Nov  4 18:20:22 rhel8-node01 sshd[1962]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:20:29 rhel8-node01 sshd[2322]: Accepted publickey for ansible from 10.1.10.101 port 34652 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:20:30 rhel8-node01 sshd[2322]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:20:48 rhel8-node01 sudo[2489]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bncreonhjsbysnoipkjralbfpmwkpdzn ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485248.0793345-90582354680700/AnsiballZ_setup.py
+Nov  4 18:20:48 rhel8-node01 sudo[2489]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:20:48 rhel8-node01 sudo[2489]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:20:50 rhel8-node01 sudo[2489]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:20:51 rhel8-node01 sudo[2632]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-juiotuhcujzjlwtlfotpehzkkhfhikxr ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485251.9757676-131712714482827/AnsiballZ_stat.py
+Nov  4 18:20:51 rhel8-node01 sudo[2632]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:20:51 rhel8-node01 sudo[2632]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:20:52 rhel8-node01 sudo[2632]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:20:52 rhel8-node01 sudo[2691]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nmeawmuhuasnwyixculeljspwykyoeir ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485251.9757676-131712714482827/AnsiballZ_file.py
+Nov  4 18:20:52 rhel8-node01 sudo[2691]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:20:52 rhel8-node01 sudo[2691]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:20:53 rhel8-node01 sudo[2691]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:21:07 rhel8-node01 sudo[2831]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dglatqulwmmxrkuhkjtxlxjifuftkkxf ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485266.4794314-35657978367310/AnsiballZ_setup.py
+Nov  4 18:21:07 rhel8-node01 sudo[2831]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:21:07 rhel8-node01 sudo[2831]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:21:09 rhel8-node01 sudo[2831]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:21:10 rhel8-node01 sudo[2974]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mirqvxhvnwiaalnhecbzujrbwrjkpaqo ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485271.0804284-116864606979547/AnsiballZ_stat.py
+Nov  4 18:21:10 rhel8-node01 sudo[2974]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:21:10 rhel8-node01 sudo[2974]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:21:11 rhel8-node01 sudo[2974]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:21:12 rhel8-node01 sudo[3033]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iwbpamwqwqkcykhpcueqyfkhbmnewdlw ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485271.0804284-116864606979547/AnsiballZ_file.py
+Nov  4 18:21:12 rhel8-node01 sudo[3033]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:21:12 rhel8-node01 sudo[3033]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:21:13 rhel8-node01 sudo[3033]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:21:32 rhel8-node01 sudo[3173]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vjxdnqczorywwvpoazexhbmazyvieoiq ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485291.7310386-143472177831965/AnsiballZ_setup.py
+Nov  4 18:21:32 rhel8-node01 sudo[3173]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:21:32 rhel8-node01 sudo[3173]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:21:34 rhel8-node01 sudo[3173]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:21:36 rhel8-node01 sudo[3316]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bpedjezicpmfxpjlwoukisrcvnbnkzwu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485296.5252717-103712276732899/AnsiballZ_stat.py
+Nov  4 18:21:36 rhel8-node01 sudo[3316]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:21:36 rhel8-node01 sudo[3316]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:21:37 rhel8-node01 sudo[3316]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:21:38 rhel8-node01 sudo[3375]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-blhahfwjabottbtxcssohodnigcatxoo ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485296.5252717-103712276732899/AnsiballZ_file.py
+Nov  4 18:21:38 rhel8-node01 sudo[3375]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:21:38 rhel8-node01 sudo[3375]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:21:39 rhel8-node01 sudo[3375]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:22:40 rhel8-node01 sshd[1977]: Received disconnect from 10.1.10.101 port 34650:11: disconnected by user
+Nov  4 18:22:40 rhel8-node01 sshd[1977]: Disconnected from user ansible 10.1.10.101 port 34650
+Nov  4 18:22:40 rhel8-node01 sshd[1962]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:22:50 rhel8-node01 sshd[3402]: Accepted publickey for ansible from 10.1.10.101 port 34670 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:22:50 rhel8-node01 sshd[3402]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:22:51 rhel8-node01 sudo[3525]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eeqbdjffupqwkuagsldbseyhhomatrqs ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485371.5138905-37677662992419/AnsiballZ_setup.py
+Nov  4 18:22:51 rhel8-node01 sudo[3525]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:22:51 rhel8-node01 sudo[3525]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:22:53 rhel8-node01 sudo[3525]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:22:55 rhel8-node01 sudo[3668]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jvkhesdxeichnnfhztnbmjouvszcyzmk ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485375.219197-54226709474584/AnsiballZ_file.py
+Nov  4 18:22:55 rhel8-node01 sudo[3668]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:22:55 rhel8-node01 sudo[3668]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:22:55 rhel8-node01 sudo[3668]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:22:56 rhel8-node01 sudo[3775]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cywxtsomtafeqefihhbsambjaedaddsb ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485377.6514683-89186363641574/AnsiballZ_file.py
+Nov  4 18:22:56 rhel8-node01 sudo[3775]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:22:56 rhel8-node01 sudo[3775]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:22:57 rhel8-node01 sudo[3775]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:23:57 rhel8-node01 sshd[3405]: Received disconnect from 10.1.10.101 port 34670:11: disconnected by user
+Nov  4 18:23:57 rhel8-node01 sshd[3405]: Disconnected from user ansible 10.1.10.101 port 34670
+Nov  4 18:23:57 rhel8-node01 sshd[3402]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:24:05 rhel8-node01 sshd[3801]: Accepted publickey for ansible from 10.1.10.101 port 34678 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:24:05 rhel8-node01 sshd[3801]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:24:06 rhel8-node01 sudo[3924]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-avxlayrgivodufiuykttiasvwlevvjte ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485447.1970057-191161678257252/AnsiballZ_setup.py
+Nov  4 18:24:06 rhel8-node01 sudo[3924]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:24:06 rhel8-node01 sudo[3924]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:24:08 rhel8-node01 sudo[3924]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:24:10 rhel8-node01 sudo[4067]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-geaslceanpxvncjxxperyqbymlieuudd ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485450.2132585-249425297455016/AnsiballZ_slurp.py
+Nov  4 18:24:10 rhel8-node01 sudo[4067]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:24:10 rhel8-node01 sudo[4067]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:24:11 rhel8-node01 sudo[4067]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:24:32 rhel8-node01 sudo[4207]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hwrcamhignlaiipgviseyfeaguxyxtzh ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485471.4083982-104026647055165/AnsiballZ_setup.py
+Nov  4 18:24:32 rhel8-node01 sudo[4207]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:24:32 rhel8-node01 sudo[4207]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:24:33 rhel8-node01 sudo[4207]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:24:36 rhel8-node01 sudo[4350]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fgxgncpfdderhlyhatngzmadvbpmgyhe ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485475.871408-187123339241562/AnsiballZ_slurp.py
+Nov  4 18:24:36 rhel8-node01 sudo[4350]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:24:36 rhel8-node01 sudo[4350]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)

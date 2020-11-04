@@ -1,11 +1,9 @@
-
 ---
 - name: Sync Directory Content
   hosts: all
-  remote_user: devops
   become: true
   tasks:
     - name: Synchronize local file to remote files
       synchronize:
-        src: file
-        dest: /home/devops/files
+        src: files
+        dest: /home/ansible/files

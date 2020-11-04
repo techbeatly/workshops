@@ -1,13 +1,13 @@
 ---
 - name: Using the copy module
   hosts: all
-  remote_user: root
+  become: True
   tasks:
     - name: Copy a file to managed hosts and set attributes
       copy:
-        src: files/users.txt
-        dest: /home/devops/users.txt
-        owner: devops
-        group: devops
+        src: files/demo-text-file.txt
+        dest: /home/ansible/demo-text-file.txt
+        owner: ansible
+        group: ansible
         mode: u+rw,g-wx,o-rwx
         setype: samba_share_t
