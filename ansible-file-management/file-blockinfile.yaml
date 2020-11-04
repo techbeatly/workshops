@@ -10,3 +10,4 @@
           This block of text consists of two lines.
           They have been added by Ansible using the blockinfile module.
         state: present
+        insertbefore: 'line 2'

@@ -238,3 +238,348 @@ Nov  4 18:24:33 rhel8-node01 sudo[4207]: pam_unix(sudo:session): session closed 
 Nov  4 18:24:36 rhel8-node01 sudo[4350]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fgxgncpfdderhlyhatngzmadvbpmgyhe ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485475.871408-187123339241562/AnsiballZ_slurp.py
 Nov  4 18:24:36 rhel8-node01 sudo[4350]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
 Nov  4 18:24:36 rhel8-node01 sudo[4350]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:24:36 rhel8-node01 sudo[4350]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:25:37 rhel8-node01 sshd[3804]: Received disconnect from 10.1.10.101 port 34678:11: disconnected by user
+Nov  4 18:25:37 rhel8-node01 sshd[3804]: Disconnected from user ansible 10.1.10.101 port 34678
+Nov  4 18:25:37 rhel8-node01 sshd[3801]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:26:20 rhel8-node01 sshd[4372]: Accepted publickey for ansible from 10.1.10.101 port 34688 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:26:20 rhel8-node01 sshd[4372]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:26:23 rhel8-node01 sudo[4496]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rjucrytyzvbncyczrhxlqrodwtxvwmmx ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485581.455234-256220178526278/AnsiballZ_setup.py
+Nov  4 18:26:23 rhel8-node01 sudo[4496]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:26:23 rhel8-node01 sudo[4496]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:26:25 rhel8-node01 sudo[4496]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:26:27 rhel8-node01 sshd[4553]: Accepted publickey for ansible from 10.1.10.101 port 34692 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:26:27 rhel8-node01 sshd[4553]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:26:27 rhel8-node01 sudo[4557]: ansible : TTY=unknown ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/rsync --server -logDtprze.iLsfxC --log-format=%i --delay-updates . /home/ansible/files
+Nov  4 18:26:27 rhel8-node01 sudo[4557]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:26:27 rhel8-node01 sudo[4557]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  4 18:26:27 rhel8-node01 sudo[4557]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:26:27 rhel8-node01 sshd[4556]: Received disconnect from 10.1.10.101 port 34692:11: disconnected by user
+Nov  4 18:26:27 rhel8-node01 sshd[4556]: Disconnected from user ansible 10.1.10.101 port 34692
+Nov  4 18:26:27 rhel8-node01 sshd[4553]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:27:26 rhel8-node01 sudo[4699]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zocucooujtrsvhvxiugnsylwntrleubb ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485646.6032832-139190917911483/AnsiballZ_setup.py
+Nov  4 18:27:26 rhel8-node01 sudo[4699]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:27:26 rhel8-node01 sudo[4699]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:27:29 rhel8-node01 sudo[4699]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:27:30 rhel8-node01 sudo[4842]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dragasajdorbydkuuxsukdznitxtmgxx ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485651.164402-162441848360595/AnsiballZ_file.py
+Nov  4 18:27:30 rhel8-node01 sudo[4842]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:27:30 rhel8-node01 sudo[4842]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:27:31 rhel8-node01 sudo[4842]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:27:32 rhel8-node01 sudo[4949]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kdxvcxydpzbdisqweytlujbsdntofneu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485653.4377482-79041046390495/AnsiballZ_file.py
+Nov  4 18:27:32 rhel8-node01 sudo[4949]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:27:32 rhel8-node01 sudo[4949]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:27:33 rhel8-node01 sudo[4949]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:27:34 rhel8-node01 sudo[5056]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dgcpkatoqrdksmhuztbisrzpblczgzhu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485655.101574-83731603406853/AnsiballZ_file.py
+Nov  4 18:27:34 rhel8-node01 sudo[5056]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:27:34 rhel8-node01 sudo[5056]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:27:34 rhel8-node01 sudo[5056]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:28:34 rhel8-node01 sshd[4375]: Received disconnect from 10.1.10.101 port 34688:11: disconnected by user
+Nov  4 18:28:34 rhel8-node01 sshd[4375]: Disconnected from user ansible 10.1.10.101 port 34688
+Nov  4 18:28:34 rhel8-node01 sshd[4372]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:28:35 rhel8-node01 sshd[5089]: Accepted publickey for ansible from 10.1.10.101 port 34704 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:28:35 rhel8-node01 sshd[5089]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:28:38 rhel8-node01 sudo[5213]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-glflvbthqlwchvrdftvhtqwpwrxxwkbh ; /usr/libexec/platform-python /home/ansible/ansible-tmp-1604485716.3766599-76214719992109/AnsiballZ_setup.py
+Nov  4 18:28:38 rhel8-node01 sudo[5213]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:28:38 rhel8-node01 sudo[5213]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:28:41 rhel8-node01 sudo[5213]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:16 rhel8-node01 sudo[5439]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wuqztcedvwjchxwqxeccivmlclasfosp ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485755.6932516-36642300369453/AnsiballZ_setup.py
+Nov  4 18:29:16 rhel8-node01 sudo[5439]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:16 rhel8-node01 sudo[5439]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:18 rhel8-node01 sudo[5439]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:19 rhel8-node01 sudo[5582]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gyxbsyifttfjfupqbclofieeghpsrzmu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485760.290705-215683025171770/AnsiballZ_stat.py
+Nov  4 18:29:19 rhel8-node01 sudo[5582]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:19 rhel8-node01 sudo[5582]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:20 rhel8-node01 sudo[5582]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:22 rhel8-node01 sudo[5671]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kiuqkfmnouhlnlkeomwktiqlwfhifhfi ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485760.290705-215683025171770/AnsiballZ_copy.py
+Nov  4 18:29:22 rhel8-node01 sudo[5671]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:22 rhel8-node01 sudo[5671]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:23 rhel8-node01 sudo[5671]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:47 rhel8-node01 sudo[5815]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oqthvdudstgxdtopyhbtzbhjickzjfdx ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485786.7894187-30803291620010/AnsiballZ_setup.py
+Nov  4 18:29:47 rhel8-node01 sudo[5815]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:47 rhel8-node01 sudo[5815]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:49 rhel8-node01 sudo[5815]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:51 rhel8-node01 sudo[5958]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uyoefcwfuzvosrdebijxswxxkkjnvpll ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485791.6577926-150356374213935/AnsiballZ_file.py
+Nov  4 18:29:51 rhel8-node01 sudo[5958]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:51 rhel8-node01 sudo[5958]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:52 rhel8-node01 sudo[5958]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:53 rhel8-node01 sudo[6066]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qbhgfltrcmhpdgosqvkkguhwmnlpwygi ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485793.9794505-48443549851087/AnsiballZ_file.py
+Nov  4 18:29:53 rhel8-node01 sudo[6066]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:53 rhel8-node01 sudo[6066]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:53 rhel8-node01 sudo[6066]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:29:54 rhel8-node01 sudo[6174]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dxtkpzcxiqyovuzhttybtjmefsefwyrf ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485795.6765969-126398309877118/AnsiballZ_file.py
+Nov  4 18:29:54 rhel8-node01 sudo[6174]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:29:54 rhel8-node01 sudo[6174]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:29:55 rhel8-node01 sudo[6174]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:30:55 rhel8-node01 sshd[5092]: Received disconnect from 10.1.10.101 port 34704:11: disconnected by user
+Nov  4 18:30:55 rhel8-node01 sshd[5092]: Disconnected from user ansible 10.1.10.101 port 34704
+Nov  4 18:30:55 rhel8-node01 sshd[5089]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:33:00 rhel8-node01 sshd[6196]: Connection closed by authenticating user root 10.1.10.101 port 34728 [preauth]
+Nov  4 18:33:15 rhel8-node01 sshd[6198]: Accepted publickey for ansible from 10.1.10.101 port 34730 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:33:15 rhel8-node01 sshd[6198]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:33:18 rhel8-node01 sudo[6321]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yvcpsldqcvxzvxcrwuoifebrdbnwzjef ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604485997.0374382-43416709765224/AnsiballZ_setup.py
+Nov  4 18:33:18 rhel8-node01 sudo[6321]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:33:18 rhel8-node01 sudo[6321]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:33:21 rhel8-node01 sudo[6321]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:33:23 rhel8-node01 sudo[6464]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-falkeycjchvwdisqwetipqwppwbjdftn ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486003.2234561-37228307046890/AnsiballZ_file.py
+Nov  4 18:33:23 rhel8-node01 sudo[6464]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:33:23 rhel8-node01 sudo[6464]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:33:24 rhel8-node01 sudo[6464]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:33:44 rhel8-node01 sudo[6604]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-siwbrsajdbwuvbvvhysoxjinrlsfiste ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486024.22303-127394732386684/AnsiballZ_setup.py
+Nov  4 18:33:44 rhel8-node01 sudo[6604]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:33:44 rhel8-node01 sudo[6604]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:33:46 rhel8-node01 sudo[6604]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:33:47 rhel8-node01 sudo[6747]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gqtwvtunshqiaxxeplilhojyvyjmexhs ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486028.0315263-159967814175010/AnsiballZ_file.py
+Nov  4 18:33:47 rhel8-node01 sudo[6747]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:33:47 rhel8-node01 sudo[6747]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:33:48 rhel8-node01 sudo[6747]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:34:40 rhel8-node01 sudo[6917]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hswnosrnqaarqtptpaksvjewovczdudj ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486079.8357577-247145131283799/AnsiballZ_setup.py
+Nov  4 18:34:40 rhel8-node01 sudo[6917]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:34:40 rhel8-node01 sudo[6917]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:34:42 rhel8-node01 sudo[6917]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:34:44 rhel8-node01 sudo[7061]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rmcecppsmbpukkmvsylmxecsriaxftru ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486084.8369327-244042026704670/AnsiballZ_stat.py
+Nov  4 18:34:44 rhel8-node01 sudo[7061]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:34:44 rhel8-node01 sudo[7061]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:34:44 rhel8-node01 sudo[7061]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:34:45 rhel8-node01 sudo[7149]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ixttbgefycbdmcourgvatyjmriqtcbsn ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486084.8369327-244042026704670/AnsiballZ_copy.py
+Nov  4 18:34:45 rhel8-node01 sudo[7149]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:34:45 rhel8-node01 sudo[7149]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:34:46 rhel8-node01 sudo[7149]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:34:54 rhel8-node01 sudo[7292]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-swrevyrezpowvlwuwcfhovxfgnflagdn ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486094.4179714-115964347321083/AnsiballZ_setup.py
+Nov  4 18:34:54 rhel8-node01 sudo[7292]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:34:54 rhel8-node01 sudo[7292]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:34:56 rhel8-node01 sudo[7292]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:34:57 rhel8-node01 sudo[7435]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lsdionkxgldfqwktvtoajqggncazeoja ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486098.5732021-103368380318114/AnsiballZ_file.py
+Nov  4 18:34:57 rhel8-node01 sudo[7435]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:34:57 rhel8-node01 sudo[7435]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:34:58 rhel8-node01 sudo[7435]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:34:59 rhel8-node01 sudo[7542]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fvvagrwqfmlccpmvuahwkzjpevhmspbu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486100.5808494-24573045082186/AnsiballZ_file.py
+Nov  4 18:34:59 rhel8-node01 sudo[7542]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:34:59 rhel8-node01 sudo[7542]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:35:00 rhel8-node01 sudo[7542]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:35:01 rhel8-node01 sudo[7649]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nijrfmdqylobbsjvjdoegmwdnaudpfyd ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486102.128943-97568629128308/AnsiballZ_file.py
+Nov  4 18:35:01 rhel8-node01 sudo[7649]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:35:01 rhel8-node01 sudo[7649]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:35:01 rhel8-node01 sudo[7649]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:36:01 rhel8-node01 sshd[6201]: Received disconnect from 10.1.10.101 port 34730:11: disconnected by user
+Nov  4 18:36:01 rhel8-node01 sshd[6201]: Disconnected from user ansible 10.1.10.101 port 34730
+Nov  4 18:36:01 rhel8-node01 sshd[6198]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:36:23 rhel8-node01 sshd[7676]: Accepted publickey for ansible from 10.1.10.101 port 34748 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:36:23 rhel8-node01 sshd[7676]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:36:25 rhel8-node01 sudo[7800]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ytqkkjlshahrgnazgwtbhhpasarmlgtd ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486185.1045296-232328441124636/AnsiballZ_setup.py
+Nov  4 18:36:25 rhel8-node01 sudo[7800]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:36:25 rhel8-node01 sudo[7800]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:36:27 rhel8-node01 sudo[7800]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:36:29 rhel8-node01 sudo[7943]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yieapltioluoyykuxymlwawpkrswzwdr ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486189.42761-86690029819204/AnsiballZ_lineinfile.py
+Nov  4 18:36:29 rhel8-node01 sudo[7943]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:36:29 rhel8-node01 sudo[7943]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:36:29 rhel8-node01 sudo[7943]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:37:23 rhel8-node01 sudo[8084]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qajoobwszxharzbbmigdvapznrtjkecm ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486244.2075937-175970909854863/AnsiballZ_setup.py
+Nov  4 18:37:23 rhel8-node01 sudo[8084]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:37:23 rhel8-node01 sudo[8084]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:37:24 rhel8-node01 sudo[8084]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:37:25 rhel8-node01 sudo[8227]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hzopdwlpdrprjqcbnbsflhtkytebzzfv ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486246.2968152-97912630138617/AnsiballZ_file.py
+Nov  4 18:37:25 rhel8-node01 sudo[8227]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:37:25 rhel8-node01 sudo[8227]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:37:25 rhel8-node01 sudo[8227]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:38:19 rhel8-node01 sudo[8368]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bcqnhxhrjsihmxslmryidabgnuvmalkd ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486299.4770706-269495332719104/AnsiballZ_setup.py
+Nov  4 18:38:19 rhel8-node01 sudo[8368]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:38:19 rhel8-node01 sudo[8368]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:38:20 rhel8-node01 sudo[8368]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:38:20 rhel8-node01 sudo[8512]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wxbtslcvtvfncqfogrszdftthkdfrxri ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486301.8038535-275123287289167/AnsiballZ_blockinfile.py
+Nov  4 18:38:20 rhel8-node01 sudo[8512]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:38:20 rhel8-node01 sudo[8512]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:38:20 rhel8-node01 sudo[8512]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:39:21 rhel8-node01 sshd[7680]: Received disconnect from 10.1.10.101 port 34748:11: disconnected by user
+Nov  4 18:39:21 rhel8-node01 sshd[7680]: Disconnected from user ansible 10.1.10.101 port 34748
+Nov  4 18:39:21 rhel8-node01 sshd[7676]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 18:42:42 rhel8-node01 sshd[8549]: Accepted publickey for ansible from 10.1.10.101 port 34792 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 18:42:42 rhel8-node01 sshd[8549]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 18:42:44 rhel8-node01 sudo[8672]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nutvybbafkviehmzdbtvfilskmwibcsh ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486564.041224-142096820001496/AnsiballZ_setup.py
+Nov  4 18:42:44 rhel8-node01 sudo[8672]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:42:44 rhel8-node01 sudo[8672]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:42:47 rhel8-node01 sudo[8672]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:42:48 rhel8-node01 sudo[8815]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mamgnrjnsnafwpgzgprxayzsqsnplbcr ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486568.9630775-136800882690237/AnsiballZ_stat.py
+Nov  4 18:42:48 rhel8-node01 sudo[8815]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:42:48 rhel8-node01 sudo[8815]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:42:49 rhel8-node01 sudo[8815]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:42:50 rhel8-node01 sudo[8905]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aifvdacfkilqtnktwpqipttgyppntrnf ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486568.9630775-136800882690237/AnsiballZ_copy.py
+Nov  4 18:42:50 rhel8-node01 sudo[8905]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:42:50 rhel8-node01 sudo[8905]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:42:51 rhel8-node01 sudo[8905]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:42:52 rhel8-node01 sudo[9014]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iurjixjujuotepoylgrludxnfkypychy ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486573.3596084-202862904442356/AnsiballZ_stat.py
+Nov  4 18:42:52 rhel8-node01 sudo[9014]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:42:52 rhel8-node01 sudo[9014]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:42:53 rhel8-node01 sudo[9014]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:17 rhel8-node01 sudo[9157]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tgngwgvxjngtvvhlchtmvyujlsnkvmah ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486596.540105-186881476459997/AnsiballZ_setup.py
+Nov  4 18:43:17 rhel8-node01 sudo[9157]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:17 rhel8-node01 sudo[9157]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:18 rhel8-node01 sudo[9157]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:20 rhel8-node01 sudo[9300]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kkhgdphufhdacneimgqzmyvxisbjnzyl ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486600.821901-236551544331298/AnsiballZ_stat.py
+Nov  4 18:43:20 rhel8-node01 sudo[9300]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:20 rhel8-node01 sudo[9300]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:21 rhel8-node01 sudo[9300]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:21 rhel8-node01 sudo[9390]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-emssspbbdkogjazdudutmfjnolswxomu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486600.821901-236551544331298/AnsiballZ_copy.py
+Nov  4 18:43:22 rhel8-node01 sudo[9390]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:22 rhel8-node01 sudo[9390]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:22 rhel8-node01 sudo[9390]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:23 rhel8-node01 sudo[9499]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-deranqggbxpisveegoiwhzsdjggpppnm ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486604.546308-221303802337703/AnsiballZ_stat.py
+Nov  4 18:43:23 rhel8-node01 sudo[9499]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:23 rhel8-node01 sudo[9499]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:24 rhel8-node01 sudo[9499]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:38 rhel8-node01 sudo[9642]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-byybnfwvayqmhkmcwgsfkekhqdsnqssa ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486618.2954483-150071086134057/AnsiballZ_setup.py
+Nov  4 18:43:38 rhel8-node01 sudo[9642]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:38 rhel8-node01 sudo[9642]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:40 rhel8-node01 sudo[9642]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:41 rhel8-node01 sudo[9785]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-njdncqskgfjcfiwwlczpfxldwksmpgpx ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486622.2335315-135888874831383/AnsiballZ_stat.py
+Nov  4 18:43:41 rhel8-node01 sudo[9785]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:41 rhel8-node01 sudo[9785]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:42 rhel8-node01 sudo[9785]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:43 rhel8-node01 sudo[9875]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iwedltbhmppksbzxuaczzanberlcmwqs ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486622.2335315-135888874831383/AnsiballZ_copy.py
+Nov  4 18:43:43 rhel8-node01 sudo[9875]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:43 rhel8-node01 sudo[9875]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:44 rhel8-node01 sudo[9875]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:43:45 rhel8-node01 sudo[9984]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-igeeecjuteczaejootkzvurpoymkffyi ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486626.0454164-35864209241578/AnsiballZ_stat.py
+Nov  4 18:43:45 rhel8-node01 sudo[9984]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:43:45 rhel8-node01 sudo[9984]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:43:45 rhel8-node01 sudo[9984]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:08 rhel8-node01 sudo[10127]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-efddgqaotkoctkkzmskzbxzmkuzslyuy ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486646.9126995-37444546840151/AnsiballZ_setup.py
+Nov  4 18:44:08 rhel8-node01 sudo[10127]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:08 rhel8-node01 sudo[10127]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:11 rhel8-node01 sudo[10127]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:13 rhel8-node01 sudo[10270]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hwcnuzniwhswjgiagimlaludktfwnksr ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486653.8878992-108032060207147/AnsiballZ_file.py
+Nov  4 18:44:13 rhel8-node01 sudo[10270]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:13 rhel8-node01 sudo[10270]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:15 rhel8-node01 sudo[10270]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:16 rhel8-node01 sudo[10377]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xjrswdenamlhohszwnrdyhleefhetcol ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486657.0115678-225535512011381/AnsiballZ_file.py
+Nov  4 18:44:16 rhel8-node01 sudo[10377]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:16 rhel8-node01 sudo[10377]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:17 rhel8-node01 sudo[10377]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:18 rhel8-node01 sudo[10484]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wgfjyotalpvvrhbgufsuxxlwbxqwlply ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486659.2725525-259951731127113/AnsiballZ_file.py
+Nov  4 18:44:18 rhel8-node01 sudo[10484]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:18 rhel8-node01 sudo[10484]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:19 rhel8-node01 sudo[10484]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:20 rhel8-node01 sudo[10592]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hhxhigizgphzfvgkxliseplhdpspjman ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486661.351826-268627926851655/AnsiballZ_file.py
+Nov  4 18:44:20 rhel8-node01 sudo[10592]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:20 rhel8-node01 sudo[10592]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:21 rhel8-node01 sudo[10592]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:22 rhel8-node01 sudo[10700]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jxmwdzedcmwmdupazxfklrwcozipwtij ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486663.3530781-193131055877920/AnsiballZ_file.py
+Nov  4 18:44:22 rhel8-node01 sudo[10700]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:22 rhel8-node01 sudo[10700]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:23 rhel8-node01 sudo[10700]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:25 rhel8-node01 sudo[10807]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-walpfwejdbcnyrzeosqhwgtouidizjgh ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486665.3133535-195972196838929/AnsiballZ_stat.py
+Nov  4 18:44:25 rhel8-node01 sudo[10807]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:25 rhel8-node01 sudo[10807]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:25 rhel8-node01 sudo[10807]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:27 rhel8-node01 sudo[10897]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pvjsstyoxqlwhxnzmxjhgoljciploeng ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486665.3133535-195972196838929/AnsiballZ_copy.py
+Nov  4 18:44:27 rhel8-node01 sudo[10897]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:27 rhel8-node01 sudo[10897]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:27 rhel8-node01 sudo[10897]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:40 rhel8-node01 sudo[11040]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kdzizqrfskohvqoyywvxuhytokzbchrd ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486681.0797892-199048125388481/AnsiballZ_setup.py
+Nov  4 18:44:40 rhel8-node01 sudo[11040]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:40 rhel8-node01 sudo[11040]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:41 rhel8-node01 sudo[11040]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:44:42 rhel8-node01 sudo[11183]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gejykuqxatqldfiqotstvpuodhkvsbmo ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486683.1914508-188575076328639/AnsiballZ_get_url.py
+Nov  4 18:44:42 rhel8-node01 sudo[11183]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:44:42 rhel8-node01 sudo[11183]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:44:43 rhel8-node01 sudo[11183]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:45:22 rhel8-node01 sudo[11329]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbuvszjgmqqrpbieaydzohhxkwfufafu ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486722.5551195-27878006328326/AnsiballZ_setup.py
+Nov  4 18:45:22 rhel8-node01 sudo[11329]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:45:22 rhel8-node01 sudo[11329]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:45:24 rhel8-node01 sudo[11329]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:45:26 rhel8-node01 sudo[11472]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qzuqusdrnbbyyxdgyawovdivgdyvpmnr ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604486726.5925994-181843058697147/AnsiballZ_get_url.py
+Nov  4 18:45:26 rhel8-node01 sudo[11472]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 18:45:26 rhel8-node01 sudo[11472]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 18:45:28 rhel8-node01 sudo[11472]: pam_unix(sudo:session): session closed for user root
+Nov  4 18:46:28 rhel8-node01 sshd[8552]: Received disconnect from 10.1.10.101 port 34792:11: disconnected by user
+Nov  4 18:46:28 rhel8-node01 sshd[8552]: Disconnected from user ansible 10.1.10.101 port 34792
+Nov  4 18:46:28 rhel8-node01 sshd[8549]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 19:12:37 rhel8-node01 sshd[11518]: Accepted publickey for ansible from 10.1.10.101 port 34872 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 19:12:37 rhel8-node01 sshd[11518]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 19:12:40 rhel8-node01 sudo[11641]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zbofqllsmayztxrzrfmzrmdvzjiintoc ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488359.1398773-259095136167742/AnsiballZ_setup.py
+Nov  4 19:12:40 rhel8-node01 sudo[11641]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:12:40 rhel8-node01 sudo[11641]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:12:43 rhel8-node01 sudo[11641]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:12:46 rhel8-node01 sudo[11784]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-muwytcsjjinoznvuitnkgpiryycxojii ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488366.103857-247769950546150/AnsiballZ_file.py
+Nov  4 19:12:46 rhel8-node01 sudo[11784]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:12:46 rhel8-node01 sudo[11784]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:12:47 rhel8-node01 sudo[11784]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:12:48 rhel8-node01 sudo[11891]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cpvqjnzznmngqftpbmjkxfhgmhdwovkm ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488369.112212-274719975548060/AnsiballZ_file.py
+Nov  4 19:12:48 rhel8-node01 sudo[11891]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:12:48 rhel8-node01 sudo[11891]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:12:49 rhel8-node01 sudo[11891]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:12:51 rhel8-node01 sudo[11998]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xhzqpblyygodaphobdupybcaaermihfn ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488371.6600413-128015584940864/AnsiballZ_file.py
+Nov  4 19:12:51 rhel8-node01 sudo[11998]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:12:51 rhel8-node01 sudo[11998]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:12:53 rhel8-node01 sudo[11998]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:12:54 rhel8-node01 sudo[12105]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vqxnvkvdbpqkflgzpeagvsxgikqhpxqt ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488375.1679957-196836211122680/AnsiballZ_file.py
+Nov  4 19:12:54 rhel8-node01 sudo[12105]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:12:54 rhel8-node01 sudo[12105]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:12:55 rhel8-node01 sudo[12105]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:12:57 rhel8-node01 sudo[12212]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-veggcsefsrqeievxkchkuswkjiogkdsi ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488377.7608361-266044807695156/AnsiballZ_file.py
+Nov  4 19:12:57 rhel8-node01 sudo[12212]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:12:57 rhel8-node01 sudo[12212]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:12:58 rhel8-node01 sudo[12212]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:13:00 rhel8-node01 sudo[12319]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wzotnlnzpavyeibzpykmmlvnyxlkaqsd ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488380.2046494-192093030047478/AnsiballZ_stat.py
+Nov  4 19:13:00 rhel8-node01 sudo[12319]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:13:00 rhel8-node01 sudo[12319]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:13:01 rhel8-node01 sudo[12319]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:13:02 rhel8-node01 sudo[12378]: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wsxosrlmhydizlnffjrxirkkcnzgvipp ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488380.2046494-192093030047478/AnsiballZ_file.py
+Nov  4 19:13:02 rhel8-node01 sudo[12378]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:13:02 rhel8-node01 sudo[12378]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:13:03 rhel8-node01 sudo[12378]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:13:54 rhel8-node01 sshd[12400]: Accepted publickey for ansible from 10.1.10.101 port 34878 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 19:13:55 rhel8-node01 sshd[12400]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 19:14:03 rhel8-node01 sshd[11521]: Received disconnect from 10.1.10.101 port 34872:11: disconnected by user
+Nov  4 19:14:03 rhel8-node01 sshd[11521]: Disconnected from user ansible 10.1.10.101 port 34872
+Nov  4 19:14:03 rhel8-node01 sshd[11518]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 19:15:59 rhel8-node01 sshd[12433]: Accepted publickey for ansible from 10.1.10.101 port 34886 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 19:15:59 rhel8-node01 sshd[12433]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 19:16:02 rhel8-node01 sudo[12556]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nngkkegtxedljjcmxzcawkwtwprghjaw ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488560.9745164-194880492433073/AnsiballZ_setup.py
+Nov  4 19:16:03 rhel8-node01 sudo[12556]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:16:03 rhel8-node01 sudo[12556]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:16:06 rhel8-node01 sudo[12556]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:16:08 rhel8-node01 sudo[12699]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yrgxispfqgvsmxjlyypbglunlunbjtzp ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488568.0455751-200026731759250/AnsiballZ_stat.py
+Nov  4 19:16:08 rhel8-node01 sudo[12699]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:16:08 rhel8-node01 sudo[12699]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:16:09 rhel8-node01 sudo[12699]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:16:11 rhel8-node01 sudo[12787]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-toctqkraopwpggcicnfkezrsqmzpkcap ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488568.0455751-200026731759250/AnsiballZ_copy.py
+Nov  4 19:16:11 rhel8-node01 sudo[12787]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:16:11 rhel8-node01 sudo[12787]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:16:12 rhel8-node01 sudo[12787]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:17:12 rhel8-node01 sshd[12436]: Received disconnect from 10.1.10.101 port 34886:11: disconnected by user
+Nov  4 19:17:13 rhel8-node01 sshd[12436]: Disconnected from user ansible 10.1.10.101 port 34886
+Nov  4 19:17:13 rhel8-node01 sshd[12433]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 19:17:16 rhel8-node01 sshd[12818]: Accepted publickey for ansible from 10.1.10.101 port 34892 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 19:17:17 rhel8-node01 sshd[12818]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 19:17:22 rhel8-node01 sudo[12941]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dnyjoaolhcawfpbiejjagtbroxotbaxf ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488638.2050343-280822674249759/AnsiballZ_setup.py
+Nov  4 19:17:22 rhel8-node01 sudo[12941]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:17:22 rhel8-node01 sudo[12941]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:17:26 rhel8-node01 sudo[12941]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:17:29 rhel8-node01 sudo[13084]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mhbigclkxqdfoqwnapibvqkrvytieoal ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488648.4268448-94150683400418/AnsiballZ_stat.py
+Nov  4 19:17:29 rhel8-node01 sudo[13084]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:17:29 rhel8-node01 sudo[13084]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:17:30 rhel8-node01 sudo[13084]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:17:32 rhel8-node01 sudo[13143]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uecyvsdgfhdbxnrtumfigasdjyjcribw ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488648.4268448-94150683400418/AnsiballZ_file.py
+Nov  4 19:17:32 rhel8-node01 sudo[13143]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:17:32 rhel8-node01 sudo[13143]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:17:34 rhel8-node01 sudo[13143]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:17:35 rhel8-node01 sudo[13250]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rivgoxasdstkkixdfajbrpenwtiljega ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488656.179616-23845152742621/AnsiballZ_stat.py
+Nov  4 19:17:35 rhel8-node01 sudo[13250]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:17:35 rhel8-node01 sudo[13250]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:17:37 rhel8-node01 sudo[13250]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:17:39 rhel8-node01 sudo[13338]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-osuwzknqyciwsyivwtnarnqrokiccpwl ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488656.179616-23845152742621/AnsiballZ_copy.py
+Nov  4 19:17:39 rhel8-node01 sudo[13338]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:17:39 rhel8-node01 sudo[13338]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:17:41 rhel8-node01 sudo[13338]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:18:41 rhel8-node01 sshd[12821]: Received disconnect from 10.1.10.101 port 34892:11: disconnected by user
+Nov  4 19:18:41 rhel8-node01 sshd[12821]: Disconnected from user ansible 10.1.10.101 port 34892
+Nov  4 19:18:41 rhel8-node01 sshd[12818]: pam_unix(sshd:session): session closed for user ansible
+Nov  4 19:19:39 rhel8-node01 sshd[13377]: Accepted publickey for ansible from 10.1.10.101 port 34904 ssh2: RSA SHA256:LRcgFq8bDShMszCJCZMolKZh4RlY0tGsVBxHuw51CyI
+Nov  4 19:19:39 rhel8-node01 sshd[13377]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov  4 19:19:44 rhel8-node01 sudo[13500]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-esreehbrlqsnimrxpqrhqlqbzbzeeukq ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488780.8191044-39431437677746/AnsiballZ_setup.py
+Nov  4 19:19:44 rhel8-node01 sudo[13500]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:19:44 rhel8-node01 sudo[13500]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov  4 19:19:49 rhel8-node01 sudo[13500]: pam_unix(sudo:session): session closed for user root
+Nov  4 19:19:53 rhel8-node01 sudo[13643]: ansible : TTY=pts/2 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-niqlzpfjacwwdbzuzvkmxfditdceqvjw ; /usr/libexec/platform-python /home/ansible/.ansible/tmp/ansible-tmp-1604488791.4253726-36762674419767/AnsiballZ_slurp.py
+Nov  4 19:19:53 rhel8-node01 sudo[13643]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  4 19:19:53 rhel8-node01 sudo[13643]: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
