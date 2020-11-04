@@ -17,3 +17,4 @@ Get Content files
 
 - Ansible Loops
 - Extract data from json data
+- Basics of custom module writing
